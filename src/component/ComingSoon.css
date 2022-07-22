@@ -1,0 +1,102 @@
+.background{
+    background-color: rgb(20,0,48);
+    width: 88%;
+    height: 125vh;
+    margin:  auto;
+    position: relative;
+    overflow-y: hidden;
+    /* overflow-y: scroll; */
+}
+.circle1{
+    width: 13vh;
+    height: 13vh;
+    position: absolute;
+    border-radius: 50%;
+    background-image: linear-gradient(purple, rgb(25,7,59));
+    top: 130px;
+    left: 210px;
+}
+.circle2{
+    width: 10vh;
+    height: 10vh;
+    position: absolute;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(83, 83, 145), rgb(35, 4, 72));
+    top: 300px;
+    left: 1050px;
+}
+.circle3{
+    width: 16vh;
+    height: 16vh;
+    position: absolute;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(90,45,40), rgb(35, 4, 72));
+    top: 760px;
+    left: 350px;
+}
+.contact{
+    height: 5vh !important;
+    background-color: rgb(39,26,193) !important;
+}
+.heading{
+    width: 80vh;
+}
+.headText{
+    font-size: 35pt;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.count{
+    width: 10vh;
+    height: 10vh;
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 5%;
+}
+.box{
+    height: 6vh;
+    width: 60vh;
+
+}
+.inp{
+    border: none;
+    background: transparent;
+    outline: none;
+
+}
+.join{
+    height: 6vh;
+    width: 25vh;
+    font-size: small;
+    background-color: rgb(39,26,193);
+    text-align: center;
+}
+.jon{
+    margin-top: 10px;
+}
+.bottom{
+    width: 160vh;
+    height: 150vh;
+    border-radius: 50% 50% 0 0;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.153);
+    margin-top: -23vh;
+    mix-blend-mode: screen;
+}
+.hr{
+    width: 150px;
+}
+.text{
+    color: rgb(165, 162, 157);
+    font-size: x-small;
+}
+.fn{
+    margin-bottom: -10px;
+}
+.textbottom{
+    color: rgb(165, 162, 157);
+    mix-blend-mode: screen;
+    /* position: absolute; */
+
+}
